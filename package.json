@@ -1,0 +1,25 @@
+{
+  "name": "parking_lot",
+  "version": "1.0.0",
+  "description": "Parking lot app.",
+  "main": "index.js",
+  "scripts": {
+    "transpile": "tsc",
+    "test": "jest"
+  },
+  "engines": {
+    "node": "8"
+  },
+  "keywords": [],
+  "author": "tdevm",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/node": "^13.11.1",
+    "jest": "^25.3.0",
+    "typescript": "^3.8.3"
+  }
+}

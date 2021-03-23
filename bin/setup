@@ -1,0 +1,10 @@
+#!/bin/bash
+echo 'Installing dependencies'
+npm install
+echo 'Running tests'
+npm run test
+echo 'Transpile typescript into JavaScript'
+npm run transpile
+
+echo 'Finishing setup...'
+echo 'Setup complete.'
